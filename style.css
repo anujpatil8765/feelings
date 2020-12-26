@@ -1,0 +1,43 @@
+body{
+    background-image: url(Images/cs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a:link{
+    color: black;
+
+}
+#b:hover{
+    color: rgb(252, 152, 169);
+}
+#c:hover{
+    color: rgb(97, 59, 235);
+}
+#d:hover{
+    color: red;
+}
+.carousel{
+    margin: top="4";
+
+}
+#k{
+    margin-top: 5px;
+}
+#n{
+    margin-top: 5px;
+    position: relative;
+    left: 120px;
+}
+#staticBackdropLabel{
+    color: red;
+}
+#z{
+    color: rgb(115, 17, 160);
+}
+#font-face{
+    font-family: abc;
+    src: u("https://fonts.gstatic.com")
+}
+#o{
+    font-family: abc;
+}

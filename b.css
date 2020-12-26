@@ -1,0 +1,44 @@
+body{
+    background-image: url("https://source.unsplash.com/WLUHO9A_xik/1600x900");
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: rgb(172, 42, 64);
+}
+label{
+    color: black;
+    
+    
+}
+#a{
+     position: relative;
+     left:30px;
+    
+}
+a:link{
+    color: black;
+
+}
+#b:hover{
+    color: rgb(252, 152, 169);
+}
+#c:hover{
+    color: rgb(97, 59, 235);
+}
+#d:hover{
+    color: red;
+}
+.carousel{
+    margin: top="4";
+
+}
+#font-face{
+    font-family: abc;
+    src: u("https://fonts.gstatic.com")
+}
+#o{
+    font-family: abc;
+}

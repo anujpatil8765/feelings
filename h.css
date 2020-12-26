@@ -1,0 +1,42 @@
+body{
+    background-image: url(Images/h.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: rgb(132, 87, 253);
+}
+#a{
+    position: relative;
+    left: 30px;
+}
+a:link{
+    color: black;
+
+}
+#b:hover{
+    color: rgb(252, 152, 169);
+}
+#c:hover{
+    color: rgb(97, 59, 235);
+}
+#d:hover{
+    color: red;
+}
+.carousel{
+    margin: top="4";
+
+}
+#font-face{
+    font-family: abc;
+    src: u("https://fonts.gstatic.com")
+}
+#o{
+    font-family: abc;
+}
+

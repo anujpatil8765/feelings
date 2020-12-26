@@ -1,0 +1,41 @@
+body{
+    background-image: url(Images/hellojardo-ixf_yylrd6E-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    color: rgb(216, 250, 25);
+}
+a:link{
+    color: black;
+
+}
+#b:hover{
+    color: rgb(252, 152, 169);
+}
+#c:hover{
+    color: rgb(97, 59, 235);
+}
+#d:hover{
+    color: red;
+}
+.carousel{
+    margin: top="4";
+
+}
+#a{
+    position: relative;
+    left: 30px;
+    color: white;
+}
+#font-face{
+    font-family: abc;
+    src: u("https://fonts.gstatic.com")
+}
+#o{
+    font-family: abc;
+}
