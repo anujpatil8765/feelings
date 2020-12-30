@@ -120,7 +120,25 @@
 <!--   <div class="carousel-inner">
     <div class="carousel-item active"> -->
       <img src="Images/krishna 2.jpg" class="d-block w-100" alt="...">
-      <button type="button" class="btn btn-warning">Play</button>
+      <button type="button" class="btn btn-warning" id="song">Play</button>
+      <audio id="radha">
+        <source src="Songs/Krishna Song/Tum_Prem_Ho__Reprise__Lyrical__Radha_Krishn__MOhit_lalwani(256k).mp3">
+      </audio>
+  <script>
+     var play= document.getElementById("song");
+     var song= document.getElementById("radha");
+      
+     play.onclick = function(){
+       if(song.paused){
+         song.play();
+       }else{
+         song.pause();
+         
+       }
+     }
+  
+  
+  </script>
 <!--       <div class="carousel-caption d-none d-md-block"> -->
 <!--         <h5>Mahadev Tandav</h5> -->
 <!--          <img src="Images/play.png" id="shankar"> -->
