@@ -125,14 +125,14 @@
         <source src="Songs/Krishna Song/Tum_Prem_Ho__Reprise__Lyrical__Radha_Krishn__MOhit_lalwani(256k).mp3">
       </audio>
   <script>
-     var play= document.getElementById("song");
-     var song= document.getElementById("radha");
+     var song= document.getElementById("song");
+     var radha= document.getElementById("radha");
       
-     play.onclick = function(){
-       if(song.paused){
-         song.play();
+     song.onclick = function(){
+       if(radha.paused){
+         radha.play();
        }else{
-         song.pause();
+         radha.pause();
          
        }
      }
