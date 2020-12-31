@@ -34,6 +34,11 @@ a:link{
 #z{
     color: rgb(115, 17, 160);
 }
+#s{
+    color: crimson;
+    background-color:yellow;
+    word-spacing: 7px;
+}
 #font-face{
     font-family: abc;
     src: u("https://fonts.gstatic.com")
