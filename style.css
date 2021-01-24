@@ -1,7 +1,6 @@
 body{
-    background-image: url(Images/cs.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color:black;
+  
 }
 a:link{
     color: black;
