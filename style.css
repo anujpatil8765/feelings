@@ -53,3 +53,38 @@ a:link{
     position: relative;
     left: 120px;
 }
+#game{
+    position: relative;
+    left: 10px;
+}
+#lp{
+    color: black;
+    text-transform: capitalize;
+    font-size: 40px;
+    animation: animate 3s linear infinite;
+}
+#font-face{
+    font-family: game;
+    src: url("https://fonts.googleapis.com");
+}
+@keyframes animate{
+   0%{
+       color:green;
+
+
+   }
+   50%{
+       color:  rgb(235, 84, 25);
+       ;
+
+     }
+  100%{
+    color:blue;
+
+       
+     }
+}
+#spin{
+    position: relative;
+    left: 155px;
+}
