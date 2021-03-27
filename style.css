@@ -56,12 +56,7 @@ a:link{
     position: relative;
     left: 10px;
 }
-#lp{
-    color: black;
-    text-transform: capitalize;
-    font-size: 40px;
-    animation: animate 3s linear infinite;
-}
+
 #font-face{
     font-family: game;
     src: url("https://fonts.googleapis.com");
@@ -82,8 +77,4 @@ a:link{
 
        
      }
-}
-#spin{
-    position: relative;
-    left: 155px;
 }
