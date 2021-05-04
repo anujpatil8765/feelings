@@ -1,0 +1,64 @@
+body{
+    background-image: url("Images/moon.jpg");
+}
+#LA{
+    color: azure;
+    position: relative;
+    top: 130px;
+    left: 110px;
+}
+#use{
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    left: 110px;
+    background-color: black;
+    color: blanchedalmond;
+    
+}
+#pass{
+    border-radius: 10px;
+    
+    position: relative;
+    top: 200px;
+    left: -65px;
+    background-color: black;
+    
+    color: blanchedalmond;
+    
+    
+}
+#lo{
+    color: azure;
+    border: azure;
+}
+#su{
+    position: relative;
+    top: 270px;
+    left: 120px;
+    
+}
+#h{
+    font-size: 50px;
+    position: relative;
+    left: 118px;
+    animation: animate 4s infinite;
+    
+}
+@keyframes animate{
+    0%{
+        color: red;
+    }
+    30%{
+        color: rgb(0, 255, 21);
+    }
+    50%{
+        color: rgb(255, 0, 191);
+    }
+    80%{
+        color: rgb(0, 174, 255);
+    }
+    100%{
+        color: rgb(208, 255, 0);
+    }
+}
