@@ -20,7 +20,7 @@ body{
     border-radius: 10px;
     
     position: relative;
-    top: 200px;
+    top: 150px;
     left: 110px;
     background-color: black;
     
@@ -34,8 +34,8 @@ body{
 }
 #su{
     position: relative;
-    top: 270px;
-    left: 112px;
+    top: 250px;
+    left: 80px;
     
 }
 #h{
