@@ -32,8 +32,24 @@
        
        <input id="use" type="text" placeholder="USERNAME">
        <input id="pass" type="password"  placeholder="PASSWORD">
-       <button id="su" type="button" class="btn btn-success">Login</button>
+       <button id="su" type="button" class="btn btn-success" onclick="anuj()">Login</button>
      </form>
     </div>
+    <script>
+      
+         function anuj(){
+          var use=  document.getElementById('use').value;
+          var pass=document.getElementById('pass').value;
+
+           if (use == "Radha" && pass=="Arohi"){
+             location.assign("https://anujpatil8765.github.io/happybirthdaycounddown/");
+             
+           }
+           else{
+             alert("Your username and password was wrong");
+           }
+         
+         }
+    </script>
   </body>
 </html>
